@@ -1,4 +1,5 @@
 Summary:	CableCrypt Decoder
+Summary(pl):	Dekoder CableCrypt
 Name:		cabletv
 Version:	1.3.9
 Release:	1
@@ -7,13 +8,17 @@ Group:		Libraries
 Source0:	http://sector17.tvand.net/cabletv/download/%{name}-%{version}.tar.bz2
 # Source0-md5:	ef099044034ecf1ba94769868f3c0a92
 URL:		http://sector17.tvand.net/cabletv/
-BuildRequires:	lirc-devel
 BuildRequires:	XFree86-devel
+BuildRequires:	lirc-devel
+BuildRequires:	sed >= 4.0
 Requires(post,postun):	/sbin/ldconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 CableCrypt Decoder.
+
+%description -l pl
+Dekoder CableCrypt.
 
 %prep
 %setup -q
