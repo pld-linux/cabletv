@@ -1,5 +1,5 @@
 Summary:	CableCrypt Decoder
-Summary(pl):	Dekoder CableCrypt
+Summary(pl.UTF-8):   Dekoder CableCrypt
 Name:		cabletv
 Version:	1.3.9
 Release:	1
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 CableCrypt Decoder.
 
-%description -l pl
+%description -l pl.UTF-8
 Dekoder CableCrypt.
 
 %prep
