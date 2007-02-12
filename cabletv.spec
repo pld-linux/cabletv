@@ -1,5 +1,5 @@
 Summary:	CableCrypt Decoder
-Summary(pl.UTF-8):   Dekoder CableCrypt
+Summary(pl.UTF-8):	Dekoder CableCrypt
 Name:		cabletv
 Version:	1.3.9
 Release:	1
